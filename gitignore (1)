@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyTorch Models (large files)
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Saved Models
+models/*.pt
+models/*.pth
+models/*.bin
+bert_finetuned/
+*.safetensors
+
+# Data files (if large)
+data/*.csv
+data/*.json
+data/*.txt
+
+# Logs
+*.log
+logs/
+runs/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Results
+results/plots/*.png
+results/plots/*.jpg
+results/metrics/*.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# HuggingFace Cache
+.cache/
+huggingface/
+
+# Weights & Biases
+wandb/
